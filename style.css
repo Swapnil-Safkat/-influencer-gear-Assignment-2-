@@ -58,13 +58,16 @@ header{
 
 
 /* ----------------------
-         Products
+         Title
  ---------------------- */
 main{
   width: 1160px;
-  height: 1200px;
   background-color: rgba(243, 235, 243, .3);
-  margin: 0px 120px;
+  margin: 0px 120px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .section-title{
   display: flex;
@@ -96,6 +99,37 @@ main{
 .fa-arrow-right{
   margin-left: 8px;
 }
+
+/* ----------------------
+         Products
+ ---------------------- */
+ .products{
+  width: 1047px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .product-title{
+   font-size: 28px;
+   font-weight: 600;
+   color: #3a3a3a;
+ }
+ .product-details{
+   font-size: 28px;
+   font-weight: 600;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 30px;
+ }
+ .product-box{
+   width: 330px;
+   height: 476px;
+   background-color: yellow;
+ }
+
+
 /* ----------------------
           footer
  ---------------------- */
