@@ -102,6 +102,10 @@ main{
 .fa-arrow-right{
   margin-left: 8px;
 }
+.site-img:hover img{
+  transform: scale(1.2);
+  transition: transform .5s ease-in;
+}
 
 /* ----------------------
          Products
@@ -174,7 +178,16 @@ main{
   margin-left: 5px;
   color: #3a3a3a;
  }
-
+.more-products{
+  text-decoration: none;
+  color: #e920ba;
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
 
 /* ----------------------
           footer
