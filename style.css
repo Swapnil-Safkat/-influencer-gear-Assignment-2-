@@ -9,15 +9,53 @@ body{
  ---------------------- */
 header{
   height: 120px;
-  background-color: aqua;
+  padding: 80px 120px 0px;
+}
+.navigation-bar{
+  display: flex;
+  justify-content: space-between;
+}
+.page-title{
+  font-size: 24px;
+}
+.menu{
+  display: flex;
+}
+.menu-items{
+  list-style: none;
+  display: flex;
+  padding-top: 10px;
+}
+.items{
+  margin-left: 30px;
+}
+.fa-search, .fa-shopping-cart{
+  color: #000;
 }
 
 /* ----------------------
          Products
  ---------------------- */
 main{
+  width: 1160px;
   height: 1200px;
-  background-color: bisque;
+  background-color: rgba(243, 235, 243, 0.381);
+  margin: 0px 120px;
+}
+.section-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-title{
+  width: 50%;
+  height: 270px;
+  background-color: violet;
+}
+.site-img{
+  width: 40%;
+  height: 414px;
+  background-color: tomato;
 }
 
 /* ----------------------
